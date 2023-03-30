@@ -1,0 +1,34 @@
+git init  initialisation du dossier de travail
+
+git add un fichier : stager un fichier c'est à dire l'indexer pour le suivre
+
+git commit -m "message" : versionne le fichier dans un commit
+
+git log : écrit l'historique des commit. taper Q pour sortir.
+
+On voit alors apparaitre l'historique: pour chaque version un SHA (un code de la version)
+
+git checkout SHA  : permet de revenir en arrière au script de la version du SHA
+
+git checkout master : revient au dernier commit.
+
+
+astuce : git commit -a -m "modif" : évite la ligne de code add; qd le fichier non indéxé a déjà indéxé auparaavant
+alors
+- git voit qu'il a été mlodifié,
+- le réindexe,
+- le committe
+ 
+git clone https:.... récupère le code depuis Github dans le repository local.
+
+PUSH
+
+git push origin master : envoie le fichier en cours vers le depositiry de github (mettre origin par défaut)/ fonctionne plutot avec 'main' au lieu de 'master'
+
+PULL 
+git pull origin master : envoie le fichier en cours depuis le depositiry de github vers mon répertoire local  (origin par défaut)
+
+Autres commandes GIT bash
+cat fihcier.txt  affiche le script d'un fichier
+
+
